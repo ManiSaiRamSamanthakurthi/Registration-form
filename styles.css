@@ -1,0 +1,52 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for the registration form */
+.container, .form-container {
+    background-color: #ADD8E6; /* Light blue background for the registration form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Button Styles - Container for both buttons */
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Space the buttons evenly */
+    gap: 10px; /* Add some space between the buttons */
+    margin-top: 20px; /* Add margin for better spacing */
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFA500; /* Light orange color for buttons */
+    color: #fff;
+    cursor: pointer;
+    width: 48%; /* Make each button take up 48% of the width */
+}
+
+button:hover {
+    background-color: #FF8C00; /* Darker orange shade for hover effect */
+}
+
+/* Input and textarea fields */
+input, select, textarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

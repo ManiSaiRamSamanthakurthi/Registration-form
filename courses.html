@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Online Courses</h1>
+        
+        <!-- Available Courses Heading and List -->
+        <div id="availableCourses">
+            <h2>Available Courses</h2>
+            <ul id="courseList">
+                <!-- Courses will be displayed here dynamically -->
+            </ul>
+        </div>
+
+        <!-- Course Details Section (hidden initially) -->
+        <div id="courseDetails" style="display: none;">
+            <h2>Course Details</h2>
+            <p><strong id="courseDescription"></strong></p>
+            <p><strong>Start Date:</strong> <span id="startDate"></span></p>
+            <p><strong>End Date:</strong> <span id="endDate"></span></p>
+            <p><strong>Faculty Name:</strong> <span id="facultyName"></span></p>
+            <button onclick="backToCourses()">Back to Courses</button>
+            <button onclick="completeProcess()">Complete Process</button>
+        </div>
+    </div>
+
+    <script src="courses.js"></script>
+</body>
+</html>
